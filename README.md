@@ -25,9 +25,9 @@ python app.py 12345
 ```
 Where `app.py` is your app, and `12345` is a port. You can use any free port instead of `12345`.  
 After executing the command, an app should be launched in a new browser window. There is no need to repeat this step - any changes in the source file will be visible within an app after a page refresh.
-### Hello World app
+### hello_world_app
 Simple Streamlit app that prints `Hello World!`. 
-### Weather app
+### weather_app
 Another Streamlit app that reads and plots weather data using matplotlib and plotly.  
 
 ## Batches
@@ -46,7 +46,7 @@ Example of a simple excel addin that can do basic math operations.
 Example of an excel addin that can generate random data and calculate PCA.
 
 ## Packages
-### rc_common package
+### rc_common
 Example of a package which can read/write data from/to a blob storage.
 
 ## SDLC
