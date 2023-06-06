@@ -42,8 +42,6 @@ Example of a batch job that processes and saves weather data.
 Excel entrypoint function: `__excel_main__`.
 ### simple_addin  
 Example of a simple excel addin that can do basic math operations.
-### pca_addin
-Example of an excel addin that can generate random data and calculate PCA.
 
 ## Packages
 ### rc_common
