@@ -1,7 +1,7 @@
 import logging
 import sys
 
-from rc_common import get_zeros, write_dataframe
+from Packages.rc_common.algos import get_ones, get_zeros
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
