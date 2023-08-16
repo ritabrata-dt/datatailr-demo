@@ -4,7 +4,7 @@ import datetime
 import dt.user
 import dt.excel
 
-addin = dt.excel.Addin('SimpleAddin', 'This is a simple example which can be used to test the Excel addin functionality')
+addin = dt.excel.Addin('SimpleAddin', 'This is a simple example which can be used to test the Excel addin functionality.')
 
 @addin.expose(description='Adds 2 numbers', help='To add 2 numbers give them to the function')
 def add(a: int, b: int) -> float:
