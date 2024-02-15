@@ -7,9 +7,7 @@ import requests
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 
-def __batch_main__(
-        sub_job_name, scheduled_time, runtime, part_num, num_parts, job_config, rundate, *args
-        ):
+def __batch_main__(sub_job_name, scheduled_time, runtime, part_num, num_parts, job_config, rundate, *args) -> int :
     logging.info(f"{sub_job_name=}")
     logging.info(f"{scheduled_time=}")
     logging.info(f"{runtime=}")
