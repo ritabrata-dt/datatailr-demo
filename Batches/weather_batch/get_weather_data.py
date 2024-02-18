@@ -27,9 +27,18 @@ def __batch_main__(
 
 
 
-def __app_main__():
+def __app_main__
+(
+        ):
     return create_app().application
 
 
-def __service_main__(port):
+def __service_main__
+(
+        port
+    ):
         app.run('0.0.0.0', port=int(port), debug=False)
+
+
+
+
