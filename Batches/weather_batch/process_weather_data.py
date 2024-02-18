@@ -32,6 +32,10 @@ def __batch_main__(sub_job_name, scheduled_time, runtime, part_num, num_parts, j
 
     write_dataframe(forecast, "forecast")
 
+def __test_main__(
+    *args
+        )->int:
+    return 0
 
 if __name__ == "__main__":
     from get_weather_data import __batch_main__ as get_data
