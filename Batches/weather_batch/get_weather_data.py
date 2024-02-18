@@ -8,8 +8,7 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 
 def __batch_main__(
-        sub_job_name, scheduled_time, runtime, part_num, num_parts, job_config, rundate, *args
-        ) -> int :
+        sub_job_name, scheduled_time, runtime, part_num, num_parts, job_config, rundate, *args) -> int :
     logging.info(f"{sub_job_name=}")
     logging.info(f"{scheduled_time=}")
     logging.info(f"{runtime=}")
@@ -27,16 +26,17 @@ def __batch_main__(
 
 
 
-def __app_main__
-(
-        ):
+def __app_main__(
+
+
+
+
+        ) -> int:
     return create_app().application
 
 
-def __service_main__
-(
-        port
-    ):
+def __service_main__(port
+    ) -> None:
         app.run('0.0.0.0', port=int(port), debug=False)
 
 
