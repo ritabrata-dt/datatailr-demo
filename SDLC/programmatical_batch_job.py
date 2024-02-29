@@ -1,3 +1,4 @@
+import pandas as pd
 from dt.scheduler.api import DAG, Schedule, Task
 
 REPORT_NAMES = {'repo', 'fi_us', 'db_cd'}
