@@ -3,7 +3,7 @@ from dt.scheduler.api import DAG, Schedule, Task
 
 REPORT_NAMES = {'repo', 'fi_us', 'db_cd'}
 
-with DAG(Name='Daily Reports', Tag='dev', Schedule=Schedule(at_minutes=[15] at_hours=[0])) as dag:
+with DAG(Name='Daily Reports', Tag='dev', Schedule=Schedule(at_minutes=[15], at_hours=[0])) as dag:
     create_reports = [
         Task(
             Name=f'create–{report}', 
