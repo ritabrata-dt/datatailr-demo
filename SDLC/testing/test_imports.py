@@ -13,6 +13,7 @@ else:
 import st_aggrid
 import sys
 import dt.smth
+from batch_demo.main import __batch_main__
 
 
 if __name__ == '__main__':
