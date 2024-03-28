@@ -26,28 +26,28 @@ def __batch_main__(
 
 
 
-def __app_main__(
+# def __app_main__(
 
 
 
 
-        ) -> int:
-    return create_app().application
+#         ) -> int:
+#     return create_app().application
 
 
-def __service_main__(port
-    ) -> None:
-        app.run('0.0.0.0', port=int(port), debug=False)
+# def __service_main__(port
+#     ) -> None:
+#         app.run('0.0.0.0', port=int(port), debug=False)
 
 
-def __excel_main__(port
-    ) -> None:
-        app.run('0.0.0.0', port=int(port), debug=False)
+# def __excel_main__(port
+#     ) -> None:
+#         app.run('0.0.0.0', port=int(port), debug=False)
 
 
-def __test_main__(port
-    ) -> None:
-        app.run('0.0.0.0', port=int(port), debug=False)
+# def __test_main__(port
+#     ) -> None:
+#         app.run('0.0.0.0', port=int(port), debug=False)
 
 
 
